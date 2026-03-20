@@ -1,33 +1,84 @@
-# React Frontend Practice 2026
+# 🚀 React Frontend Practice 2026
 
-A repository focused on **React frontend concepts and exercises**, including core React, React Router, and Redux. Designed for beginners to practice and strengthen their React skills.
-
----
-
-## 📂 Folder Structure
-
-- **`react-concepts/`**  
-  Core React concepts such as components, state, props, events, and hooks.  
-
-- **`react-router/`**  
-  Exercises and examples for React Router, including routing, navigation, and nested routes.  
-
-- **`redux/`**  
-  Practical exercises for state management using Redux.
+A complete frontend practice repository covering core React concepts, React Router, Redux, and modern React hooks. This project is structured step-by-step to build strong React fundamentals for real-world applications and interviews.
 
 ---
 
-## 🎯 Purpose
+## 📌 Tech Stack
 
-- Learn and practice React fundamentals step by step.  
-- Explore routing and state management concepts.  
-- Prepare for frontend interviews with hands-on exercises.  
+* React.js (with Vite)
+* React Router DOM
+* Redux (Redux Toolkit)
+* Tailwind CSS
+* Context API
+* JavaScript (ES6+)
+* Fetch & API integration
 
 ---
 
-## 🚀 Usage
+## 📂 Project Structure
 
-1. Clone the repository:
+This repository is organized topic-wise for better learning:
+
+### 🟢 React Concepts
+
+* Components
+* Props & State
+* Prop Drilling
+* Context API
+* useContext Hook
+* useMemo & useCallback
+* Lifting State Up
+* List Rendering
+* Forms in React
+* useState with Objects & Arrays
+
+### 🌐 React Hooks
+
+* useState
+* useEffect
+* useRef
+* useReducer
+* Custom Hooks
+
+### 🌐 API & REST
+
+* Fetch & extract data
+* Post data (single/multiple images)
+* Login & Logout
+* REST API methods (GET, POST, PUT, PATCH, DELETE)
+
+### 🗄️ React Router
+
+* Routing & Nested Routes
+* Layouts
+* Protected Routes
+* Pages: Home, About, Contact, Profile, Settings, Post, User
+
+### ⚡ State Management
+
+* Redux Counter
+* Redux Toolkit
+* Slice & Store setup
+* Connecting Redux to Components
+
+---
+
+## 🔥 Features
+
+* 📌 Clean folder structure for each concept
+* 📌 Real-world React implementations
+* 📌 Use of modern React hooks
+* 📌 API interaction and CRUD operations
+* 📌 State management using Context API & Redux
+* 📌 React Router setup with multiple pages
+* 📌 Responsive design using Tailwind CSS
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/react_frontend_practice_2026.git
+git clone https://github.com/akashkashyap0770/react_frontend_practice_2026.git
