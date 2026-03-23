@@ -1,6 +1,10 @@
 import { useState } from "react";
 import Child from "./componments/Child";
 
+/*
+✅ Definition ( propDrilling ) :- propDrilling in react refers to the process of passing data props from a parent component down to child components, through multiple layers of internmediate components, even if those intermediate components don't need the data themseleves, but the prop is still passed down to delivered it to child component. It is a drawback of propDrilling which can be avoided using ContextAPI or useContext Hook.  
+ */
+
 function PropDrilling() {
   const [state, setState] = useState("Akash");
 

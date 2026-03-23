@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 
+/*
+✅ Definition ( State ) :- State refers to data that can change over time and affects how a component behaves or appears. It is used to store information that can be updated and re-rendered in the UI. When the state changes. 
+*/
+
 function State() {
   const [count, setCount] = useState(0);
 

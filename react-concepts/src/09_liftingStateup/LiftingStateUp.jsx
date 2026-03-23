@@ -3,6 +3,9 @@ import Child from "./components/Child";
 import GrandChild from "./components/GrandChild";
 
 /*
+
+✅ Definition ( liftingStateUp ) :- liftingStateUp hook in react refers to a pattern where you move the state from a child component to a common ancestor typically a parent component. So that multiple child component can share and manage the same peace of data, this helps maintain a single source of truth and enables better communication between component through props.
+
 1️⃣ Lifiting State Up :- Lifting State Up state ko parent me move karna taaki multiple child components usse share aur update kar saken.
 
 💠 Child ko state isliye nahi di jati update ke liye kyunki React me “Single Source of Truth” hota hai.

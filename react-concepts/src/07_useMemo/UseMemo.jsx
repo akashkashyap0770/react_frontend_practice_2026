@@ -1,5 +1,9 @@
 import React, { useMemo, useState } from "react";
 
+/*
+✅ Definition ( useMemo ) :- useMemo hook in react memorizes the result of a function and only recalculate it, when it's dependencies change. This helps to optimize performance by preventing expensive or unnecessary computation during re-renders.
+*/
+
 // 🔥 Heavy Function
 const slowFunction = (num) => {
   console.log("Render slowFunction RUNNING");

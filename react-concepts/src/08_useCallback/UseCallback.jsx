@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 
 /*
-🗒️ Definition:- useCallback hook in react is used to memoized a function ensuring the same function is not recreated on every render. It only recreates the function if its dependencies change, which helps improve performance by preventing unnecessary re-renders in components that rely on stable function references.
+✅ Definition ( useCallback ) :- useCallback hook in react is used to memoized a function ensuring the same function is not recreated on every render. It only recreates the function if its dependencies change, which helps improve performance by preventing unnecessary re-renders in components that rely on stable function references.
 
 💠 Interview :- Parent re-render creates a new function reference, and when passed as props, it causes child to re-render due to prop change.
 */
